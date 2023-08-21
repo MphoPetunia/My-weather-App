@@ -133,3 +133,8 @@ div {
   font-weight: light;
   color: #878787;
 }
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
