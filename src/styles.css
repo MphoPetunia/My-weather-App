@@ -60,10 +60,76 @@ li {
   border-color: #28a745;
 }
 
-.search-engine {
+body {
   border: 1px solid wheat;
   padding: 15px;
   margin: 20px auto;
-  border-radius: 10px;
-  max-width: 600px;
+  border-radius: 20px;
+  max-width: 700px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+div {
+  display: block;
+}
+
+.day__block-image {
+  display: block;
+  margin: 10 auto;
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.day__block-temp {
+  text-align: center;
+}
+
+.day__block-date {
+  text-align: center;
+  color: #878787;
+}
+.day__block {
+  float: left;
+  padding: 7px;
+  width: 12.5%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #878787;
+}
+
+.day__block-temps {
+  text-align: center;
+}
+
+.day__block-temp {
+  font-size: 13px;
+  line-height: 15px;
+  color: #878787;
+}
+
+.day__block-date {
+  text-align: center;
+  color: #878787;
+}
+
+.day__block {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  padding: 7px;
+  width: 12.5%;
+}
+
+.day__block-temp {
+  font-size: 13px;
+  line-height: 15px;
+  color: #878787;
+}
+
+.day__block-time {
+  font-size: 18px;
+  font-weight: light;
+  color: #878787;
 }
